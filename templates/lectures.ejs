@@ -1,0 +1,20 @@
+<section id="lectures" class="wrapper style2 spotlights">
+  <div class="inner table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>课程</th>
+          <th>导师</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% lectures.forEach(function(lecture){ %>
+          <tr>
+            <td><%= lecture.name %></td>
+            <td><%= lecture.instructor %></td>
+          </tr>
+        <% }); %>
+      </tbody>
+    </table>
+  </div>
+</section>

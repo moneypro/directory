@@ -1,0 +1,16 @@
+<section id="members" class="wrapper style2 spotlights">
+  <% members.forEach(function(member){ %>
+    <section>
+      <a href="#" class="image"><img src="images/<%= member.image %>" alt="" data-position="center center" /></a>
+      <div class="content">
+        <div class="inner">
+          <h2><%= member.name %></h2>
+          <p><%= member.content %></p>
+          <ul class="actions">
+            <li><a href="#" class="button">Learn more</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  <% }); %>
+</section>
