@@ -9,5 +9,5 @@ const output = ejs.renderFile('templates/layout.ejs', { members, lectures }, (er
     throw err;
   }
 
-  fs.writeFileSync('index.html', output);
+  fs.writeFileSync('temp.html', output);
 });
