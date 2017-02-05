@@ -22,8 +22,8 @@
           <nav>
             <ul>
               <li><a href="#intro">简介</a></li>
-              <li><a href="#members">关于我们</a></li>
               <li><a href="#lectures">课程表</a></li>
+              <li><a href="#members">关于我们</a></li>
               <li><a href="#contact">联系我们</a></li>
             </ul>
           </nav>
@@ -36,11 +36,11 @@
         <!-- Intro -->
         <%- include('introduction'); %>
 
-        <!-- Memebers -->
-        <%- include('members', { members: members }); %>
-
         <!-- Lectures -->
         <%- include('lectures', { lectures: lectures }); %>
+
+        <!-- Memebers -->
+        <%- include('members', { members: members }); %>
 
         <!-- Lectures -->
         <%- include('contact'); %>
@@ -63,6 +63,6 @@
       <script src="assets/js/util.js"></script>
       <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
       <script src="assets/js/main.js"></script>
-
+      <script src="assets/js/customize.js"></script>
   </body>
 </html>

@@ -6,7 +6,8 @@
   "scripts": {
     "build": "node index.js",
     "watch": "nodemon index.js -e js,json,ejs",
-    "release": "./release.sh"
+    "release": "./release.sh",
+    "sass": "sass -C assets/sass/main.scss:assets/css/main.css"
   },
   "repository": {
     "type": "git",

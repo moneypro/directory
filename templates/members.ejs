@@ -1,7 +1,14 @@
 <section id="members" class="wrapper style2 spotlights">
+  <div class="row">
   <% members.forEach(function(member){ %>
-    <section>
-      <a href="#" class="image"><img src="assets/images/<%= member.image %>" alt="" data-position="center center" /></a>
+    <p class="6u">
+      <span class="image left">
+        <img src="assets/images/<%= member.image %>" alt="" width="200" height="200" />
+      </span>
+      <%= member.content %>
+    </p>
+<!--     <section class="6u memeber">
+      <a href="#" class="image"></a>
       <div class="content">
         <div class="inner">
           <h2><%= member.name %></h2>
@@ -12,5 +19,6 @@
         </div>
       </div>
     </section>
-  <% }); %>
+ -->  <% }); %>
+  </div>
 </section>
