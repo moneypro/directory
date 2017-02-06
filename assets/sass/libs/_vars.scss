@@ -24,7 +24,7 @@
 
 // Font.
 	$font: (
-		family:				(Arial, Helvetica, sans-serif),
+		family:				(serif),
 		family-fixed:		('Courier New', monospace),
 		weight:				normal,
 		weight-bold:		bold,
@@ -33,17 +33,17 @@
 
 // Palette.
 	$palette: (
-		bg:					#312450,
-		bg-alt:				darken(#312450, 5),
-		fg:					rgba(255,255,255,0.55),
+		bg:					#fa6300,
+		bg-alt:				darken(#fa6300, 5),
+		fg:					#ffffff,
 		fg-bold:			#ffffff,
-		fg-light:			rgba(255,255,255,0.35),
-		border:				rgba(255,255,255,0.15),
+		fg-light:			#ffffff,
+		border:				#ffffff,
 		border-bg:			rgba(255,255,255,0.05),
-		accent1:			#5e42a6,
-		accent1-alt:		darken(#5e42a6, 10),
-		accent2:			#5052b5,
-		accent2-alt:		darken(#5052b5, 10),
+		accent1:			#002058,
+		accent1-alt:		darken(#002058, 10),
+		accent2:			#ffffff,
+		accent2-alt:		darken(#ffffff, 10),
 		accent3:			#b74e91,
 		accent3-alt:		darken(#b74e91, 10)
 	);
